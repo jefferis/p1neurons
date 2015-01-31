@@ -1,0 +1,27 @@
+#' Dataset of Drosophila male-specific P1 neurons
+#'
+#' This package contains traced neurons and skeletonised image data for a
+#' collection of Drosophila male-specific P1 neurons.
+#'
+#' Original data is due to Chiang et al [1], who have generously shared their
+#' raw data at \url{http://flycircuit.tw}. Image registration and further
+#' processing was carried out as described in [2], including the use of the
+#' nblast algorithm in order to carry out cluster analysis.
+#'
+#' @references [1] Chiang A.S., Lin C.Y., Chuang C.C., Chang H.M., Hsieh C.H.,
+#'   Yeh C.W., Shih C.T., Wu J.J., Wang G.T., Chen Y.C., Wu C.C., Chen G.Y.,
+#'   Ching Y.T., Lee P.C., Lin C.Y., Lin H.H., Wu C.C., Hsu H.W., Huang Y.A.,
+#'   Chen J.Y., et al. (2011). Three-dimensional reconstruction of brain-wide
+#'   wiring networks in Drosophila at single-cell resolution. Curr Biol 21 (1),
+#'   1--11.
+#'
+#'   [2] Costa, M., Ostrovsky, A.D., Manton, J.D., Prohaska, S., and Jefferis,
+#'   G.S.X.E. (2014). NBLAST: Rapid, sensitive comparison of neuronal structure
+#'   and construction of neuron family databases. Biorxiv preprint.
+#'   \href{http://dx.doi.org/10.1101/006346}{doi: 10.1101/006346}.
+#'
+#' @name p1neurons-package
+#' @aliases p1neurons
+#' @docType package
+#' @keywords package
+NULL
