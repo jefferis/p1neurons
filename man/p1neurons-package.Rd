@@ -12,7 +12,8 @@ collection of Drosophila male-specific P1 neurons.
 Original data is due to Chiang et al [1], who have generously shared their
 raw data at \url{http://flycircuit.tw}. Image registration and further
 processing was carried out as described in [2], including the use of the
-nblast algorithm in order to carry out cluster analysis.
+NBLAST algorithm to compute neuron similarities as a basis for cluster
+analysis and identification of P1 subtypes.
 }
 \references{
 [1] Chiang A.S., Lin C.Y., Chuang C.C., Chang H.M., Hsieh C.H.,
