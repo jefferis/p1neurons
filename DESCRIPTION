@@ -1,9 +1,14 @@
 Package: p1neurons
-Title: What the package does (one line)
+Title: Dataset of Drosophila male-specific P1 neurons
 Version: 0.1
 Authors@R: "Gregory Jefferis <jefferis@gmail.com> [aut, cre]"
-Description: What the package does (one paragraph)
+Description: This package contains traced neurons and skeletonised image data
+    for a collection of Drosophila male-specific P1 neurons. The inclusion of an
+    all by all score matrix computed by the nat.nblast package enables
+    quantitative approaches to defining P1 neuronal subtypes.
 Depends:
     R (>= 3.1.2)
 License: GPL-3
 LazyData: true
+Suggests:
+    nat.nblast
