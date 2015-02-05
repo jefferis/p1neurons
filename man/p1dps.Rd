@@ -5,10 +5,11 @@
 \title{List of 143 P1 neurons from Chiang et al 2011 converted to dotprops objects}
 \description{
 This R list (which has additional class \code{neuronlist}) contains 143
-skeletonized \emph{Drosophila} P1 neurons as \code{dotprops} objects.
-Original data is due to Chiang et al. 2011, who have generously shared their
-raw data at \url{http://flycircuit.tw}. Image registration and further
-processing was carried out by Greg Jefferis and Marta Costa.
+skeletonized \emph{Drosophila} neurons (including both P1 neurons and closely
+related classes) as \code{dotprops} objects. Original data is due to Chiang
+et al. 2011, who have generously shared their raw data at
+\url{http://flycircuit.tw}. Image registration and further processing was
+carried out by Greg Jefferis and Marta Costa.
 }
 \references{
 [1] Chiang A.S., Lin C.Y., Chuang C.C., Chang H.M., Hsieh C.H.,
