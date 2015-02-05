@@ -1,7 +1,11 @@
 #' Dataset of Drosophila male-specific P1 neurons
 #'
 #' This package contains traced neurons and skeletonised image data for a
-#' collection of Drosophila male-specific P1 neurons.
+#' collection of Drosophila male-specific P1 neurons along with an all by all
+#' nblast score matrix of neuronal similarity.
+#'
+#' These data are made available through the objects \code{\link{p1s}},
+#' \code{\link{p1dps}}, \code{\link{p1scoremat}}
 #'
 #' Original data is due to Chiang et al [1], who have generously shared their
 #' raw data at \url{http://flycircuit.tw}. Image registration and further
