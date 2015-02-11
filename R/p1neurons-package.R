@@ -5,13 +5,22 @@
 #' nblast score matrix of neuronal similarity.
 #'
 #' These data are made available through the objects \code{\link{p1s}},
-#' \code{\link{p1dps}}, \code{\link{p1scoremat}}
+#' \code{\link{p1dps}}, \code{\link{p1scoremat}}. In order to facilitate use of
+#' these data, the package sets two options on startup:
 #'
-#' Original data is due to Chiang et al [1], who have generously shared their
-#' raw data at \url{http://flycircuit.tw}. Image registration and further
-#' processing was carried out as described in [2], including the use of the
-#' NBLAST algorithm to compute neuron similarities as a basis for cluster
-#' analysis and identification of P1 subtypes.
+#' \itemize{
+#'
+#' \item options(flycircuit.scoremat="p1scoremat")
+#'
+#' \item options(nat.default.neuronlist="p1dps")
+#'
+#' }
+#'
+#' @section Acknoledgements: Original data is due to Chiang et al [1], who have
+#'   generously shared their raw data at \url{http://flycircuit.tw}. Image
+#'   registration and further processing was carried out as described in [2],
+#'   including the use of the NBLAST algorithm to compute neuron similarities as
+#'   a basis for cluster analysis and identification of P1 subtypes.
 #'
 #' @references [1] Chiang A.S., Lin C.Y., Chuang C.C., Chang H.M., Hsieh C.H.,
 #'   Yeh C.W., Shih C.T., Wu J.J., Wang G.T., Chen Y.C., Wu C.C., Chen G.Y.,
