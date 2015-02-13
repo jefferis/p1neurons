@@ -1,21 +1,15 @@
 # p1neurons
 
-## Installation
-Currently there isn't a released version on [CRAN](http://cran.r-project.org/).
+## Pre-requisites
 
-### Released versions
-Released versions are available from our lab repository:
+* R from http://cran.r-project.org
+* Rstudio from http://www.rstudio.com
 
-```r
-install.packages("p1neurons",repos='http://jefferislab.org/R',type='source')
-```
-
-### Bleeding Edge
-You can use the **devtools** package to install the development version:
-
+## R Installation
 ```r
 if (!require("devtools")) install.packages("devtools")
-devtools::install_github("jefferis/p1neurons")
+devtools::install_github("jefferis/flycircuit", dependencies=TRUE)
+devtools::install_github("jefferis/p1neurons", dependencies=TRUE)
 ```
 
 Note: Windows users need [Rtools](http://www.murdoch-sutherland.com/Rtools/) and [devtools](http://CRAN.R-project.org/package=devtools) to install this way.
